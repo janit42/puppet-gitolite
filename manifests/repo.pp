@@ -1,6 +1,6 @@
 # 
-# this resources defines a git repository
-# you also can use it to define values for a group of
+# this resources define a git repository
+# you also can use them to define values for a group of
 # repositories (by using an @ in front of the group name)
 #
 # parameters:
@@ -22,7 +22,7 @@
 # $git-configs = {},
 # $groups      = [],
 #   an array of groups to append the repos to
-#   the group names can be prefix with an @ sign
+#   the group names can be prefixed with an @ sign
 #   (if they are puppet take care of)
 # $order
 #   string, to order the repos
@@ -44,7 +44,7 @@
 #   will update the master branch, all tags and all branches stable/*
 #   from the remote location mentioned in url.
 #
-#   To remove an upstrem you can set ensure to 'absent'
+#   To remove an upstream you can set ensure to 'absent'
 #   You can set more than one repo to sync from, but it's up to you
 #   to ensure that no conflicts occur !
 #   
